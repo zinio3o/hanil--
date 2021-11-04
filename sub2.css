@@ -1,0 +1,235 @@
+/* 제품정보 */
+
+/* sub-header */
+#sub-header .bgimg{
+    width:100%;
+    height:565px;
+    position:relative;
+    padding-top: 116px;
+    box-sizing: content-box;
+    background: #ccc;
+}
+#sub-header .bgimg .imgbg{
+    width:100%;
+    height: 565px;
+    background-image: url(../images/product-bg.jpg);
+}
+#sub-header .sub-container{
+    width: 1200px;
+    height: 565px;
+    max-width: 1200px;
+    min-width:1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+#sub-header .sub-container h2{
+    color:#fff;
+    padding-top: 211px;
+    font-size:45px;
+    font-weight: 500;
+    /* position:relative; */
+
+}
+
+#sub-header .bgimg .lnb-bgbox{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    background: #000;
+    height: 50px;
+    opacity:0.6;
+}
+#sub-header .bgimg .lnbbox{
+    width: 1200px;
+    height: 50px;
+    position:absolute;
+    bottom:0;
+    z-index:1;
+    
+}
+#sub-header .bgimg .lnbbox .lnb{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+#sub-header .bgimg .lnbbox .lnb > li{
+    width:33.33%;
+    color:#fff;
+}
+.textbox-company{
+    width:400px;
+    height: 50px;
+    background: #fff;
+    color:#000;
+}
+.textbox-company > a{
+    line-height: 50px;
+    font-weight: 500;
+}
+
+/* content */
+.search1 .search-box{
+   position:relative;
+}
+
+/* .search1 .search-box p {
+    width:50%;
+    font-size: 20px;
+    color: #949494;
+    margin-top: 12px;
+    margin-left: 30px;
+} */
+.search-box input{
+    margin-left: 322px;
+    margin-top: 100px;
+    width:557px;
+    height: 55px;
+    border-radius: 30px;
+    border: 2px solid #949494;
+    outline:none;
+    padding-top: 5px;
+    padding-left: 30px;
+    font-size:20px;
+
+}
+.search1 .search-box .product-search {
+    position:absolute;
+    top:109px;
+    right:342px;
+    font-size:30px;
+}
+/* 제품 */
+.pd p {
+    margin-top: 80px;
+    margin-left: 75px;
+    margin-bottom: 50px;
+}
+
+.product .pd1{
+    /* outline: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.product .pd2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.product .pd3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.pd-hover img:hover{
+    border-radius: 30px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.16);
+}
+.product p {
+    margin-top: 20px;
+}
+
+.product1{
+    margin-right: 44px;
+}
+.product2 {
+    margin-right: 44px;
+}
+.product4 {
+    margin-right: 44px;
+}
+.product5 {
+    margin-right: 44px;
+}
+.product7 {
+    margin-right: 44px;
+}
+.product8 {
+    margin-right: 44px;
+}
+
+.page_wrap {
+    margin-top: 100px;
+    margin-bottom: 146px;
+	text-align:center;
+	font-size:0;
+ }
+.page_nation {
+	display:inline-block;
+}
+
+.page_nation a {
+	display:block;
+	margin:0 3px;
+	float:left;
+	/* border:1px solid #e6e6e6; */
+	width:28px;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	/* background-color:#fff; */
+	font-size:18px;
+	color:#707070;
+	text-decoration:none;
+}
+.page_nation .active{
+    color:#000;
+    font-weight: bold;
+}
+.page_nation .nnext {
+    font-size:20px;
+}
+
+.page_nation a:hover{
+	color:#fff;
+	border:1px solid #42454c;
+	background-color:#42454c;
+}
+
+
+/* footer */
+
+#main-footer{ 
+    border-top: 1px solid #B8B8B8;
+    min-width: 1200px;
+    
+}
+#main-footer .footer-box{
+    display: flex;
+}
+#main-footer .logo{
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-right: 80px;
+}
+#main-footer .footer-text-box{
+    /* outline:1px solid red; */
+    margin-top: 31px;
+    font-size:14px;
+    padding-bottom: 31px;
+
+}
+#main-footer .footer-text-box .footer-info{
+    display: flex;
+    width:330px;
+    justify-content: space-between;
+}
+#main-footer .footer-text-box .footer-info p{
+    font-size: 16px;
+}
+#main-footer .footer-text-box .address{
+    display: flex;
+    justify-content: space-between;
+    width:700px;
+    margin-top: 20px;
+    color:#6B6B6B;
+}
+#main-footer .footer-text-box .mail{
+    color:#6B6B6B;
+    margin-bottom: 10px;
+}
+#main-footer .footer-text-box .copy {
+    color: #CECBCB;
+}
